@@ -3,28 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eletiva de Profissões</title>
+    <title>Eletiva Profissões</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+            padding-bottom: 70px;
+        }
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #005b99;
+            display: flex; /* Alteração para flex para os itens ficarem lado a lado */
+            justify-content: space-around; /* Distribui os itens igualmente */
+            align-items: center; /* Alinha os itens verticalmente ao centro */
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Alteração para flex para os itens ficarem lado a lado */
+            justify-content: center; /* Centraliza os itens horizontalmente */
+        }
+        nav ul li {
+            margin: 0 10px; /* Espaçamento entre os itens de menu */
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #004080;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .cover {
+            text-align: center;
+        }
+        .cover img {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+        }
+        .introduction {
+            margin: 20px 0;
+            background-color: #e6f0ff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        section h2 {
+            color: #003366;
+        }
+        .profession {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #e6f0ff;
+            border-radius: 8px;
+        }
+        .profession h2 {
+            color: #003366;
+        }
+        .profession img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Eletiva de Profissões: Explorando Carreiras</h1>
-    <p>A eletiva de profissões é um curso destinado a estudantes que desejam explorar diferentes opções de carreira e entender melhor o mercado de trabalho. O curso proporciona uma visão abrangente sobre diversas profissões, suas exigências, oportunidades de crescimento e desafios.</p>
-    <h2>Objetivos:</h2>
-    <ul>
-        <li>Introduzir os estudantes a uma ampla gama de carreiras.</li>
-        <li>Auxiliar na identificação de interesses e habilidades pessoais.</li>
-        <li>Fornecer informações sobre os requisitos educacionais e profissionais de diferentes áreas.</li>
-        <li>Orientar sobre as tendências atuais do mercado de trabalho.</li>
-    </ul>
-    <h2>Metodologia:</h2>
-    <ul>
-        <li>Palestras com profissionais de diversas áreas.</li>
-        <li>Visitas a empresas e instituições.</li>
-        <li>Workshops práticos e atividades interativas.</li>
-        <li>Pesquisas e projetos individuais e em grupo.</li>
-    </ul>
-    <h2>Público-Alvo:</h2>
-    <p>Estudantes do ensino médio interessados em explorar suas opções de carreira e se preparar para o futuro profissional.</p>
-    <h2>Duração:</h2>
-    <p>Semestral, com encontros semanais.</p>
+    <header>
+        <h1>Eletiva Profissões</h1>
+        <p>Descubra as diversas carreiras e profissões</p>
+        <p>Professores orientadores: Becláudio Alexandrino e Ricardo Ramos</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#profissoes">Profissões</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="inicio">
+            <div class="cover">
+                <img src="https://imgur.com/i3Qk7ML.png" alt="Capa Eletiva Profissões">
+            </div>
+            <h2>Bem-vindo à Eletiva Profissões</h2>
+            <div class="introduction">
+                <p>A eletiva "Profissões" é destinada a ajudar os estudantes a explorar e entender o mundo profissional. O objetivo é fornecer uma visão abrangente das diversas carreiras, identificar interesses, habilidades e valores pessoais, e desenvolver competências essenciais para o mercado de trabalho, como comunicação e liderança. O curso inclui atividades de autoconhecimento, testes vocacionais, palestras com profissionais, e informações sobre as tendências do mercado de trabalho. Além disso, aborda temas como planejamento de carreira, ética profissional e responsabilidade social, preparando os alunos para tomar decisões informadas sobre suas futuras carreiras.</p>
+            </div>
+        </section>
+        <section id="sobre">
+            <h2>Sobre a Eletiva</h2>
+            <p>A eletiva Profissões tem como objetivo proporcionar uma compreensão abrangente sobre as diversas carreiras disponíveis, bem como ajudar vocês a identificar seus interesses, habilidades e valores pessoais. Vamos explorar diferentes profissões, ouvir experiências de profissionais atuantes, e entender as tendências e demandas do mercado de trabalho atual.</p>
+        </section>
+        <section id="profissoes">
+            <h2>Profissões</h2>
+            <ul>
+                <li><a href="#bombeiro">Bombeiro</a></li>
+                <li><a href="#policial">Policial</a></li>
+                <li><a href="#enfermagem">Enfermagem</a></li>
+                <li><a href="#advogado">Advogado</a></li>
+                <li><a href="#tecnico-informatica">Técnico em Informática</a></li>
+                <li><a href="#administracao-contabilidade">Administração e Contabilidade</a></li>
+            </ul>
+        </section>
+        <section id="bombeiro" class="profession">
+            <h2>Bombeiro</h2>
+            <img src="https://imgur.com/9jO0sbm.png" alt="Bombeiro">
+            <p><strong>Nas aulas TEÓRICAS</strong>, você conhecerá os Requisitos básicos para exercer a profissão de Bombeiro Civil, Valor médio salarial, Projeções e patente da carreira.</p>
+            <p><strong>Nas aulas PRÁTICAS</strong>, você aprenderá Noções de Primeiros Socorros, Combate a Incêndio, Salvamento aquático, educação ambiental, prevenção de acidentes no lar, defesa civil, combate às drogas, educação física e outros temas.</p>
+        </section>
+        <section id="policial" class="profession">
+            <h2>Policial</h2>
+            <img src="https://imgur.com/YUwlCgQ.png" alt="Policial">
+            <p><strong>Nas aulas TEÓRICAS</strong>, você conhecerá os Requisitos básicos para exercer a profissão de Policial, Valor médio salarial, Projeções e patente da carreira.</p>
+            <p><strong>Nas aulas PRÁTICAS</strong>, você aprenderá O que faz um policial, Como atua, Onde atua, Diferença entre Policial Civil e Militar; Tipos de crimes, Aplicação de Pena e outros temas.</p>
+        </section>
+        <section id="enfermagem" class="profession">
+            <h2>Enfermagem</h2>
+            <img src="https://imgur.com/Wledx3J.png" alt="Enfermagem">
+            <p><strong>Nas aulas TEÓRICAS</strong>, você conhecerá os Requisitos básicos para exercer a profissão de Técnico em Enfermagem, Especialidades médicas, Valor médio salarial.</p>
+            <p><strong>Nas aulas PRÁTICAS</strong>, você aprenderá noções básicas da Anatomia e Fisiologia Humana, Primeiros Socorros, Enfermagem em Urgência e Emergências, Microbiologia e Parasitologia (doenças sexualmente transmissíveis e infecciosas) e outros temas.</p>
+        </section>
+        <section id="advogado" class="profession">
+            <h2>Advogado</h2>
+            <img src="https://imgur.com/KZ9t7Yw.png" alt="Advogado">
+            <p><strong>Nas aulas TEÓRICAS</strong>, você conhecerá os requisitos básicos para exercer a profissão de advogado, o que é o Direito Civil, áreas de atuação do Direito, desafios e oportunidades na área, importância do Direito na sociedade, e média salarial na área.</p>
+            <p><strong>Nas aulas PRÁTICAS</strong>, você aprenderá noções básicas da legislação brasileira para menores e do Estatuto da Criança e do Adolescente (ECA), participará da simulação de um júri popular, e debaterá sobre direitos e deveres na escola, entre outros temas.</p>
+        </section>
+        <section id="tecnico-informatica" class="profession">
+            <h2>Técnico em Informática</h2>
+            <img src="https://imgur.com/IpvrBxX.png" alt="Técnico em Informática">
+            <p><strong>Nas aulas TEÓRICAS</strong>, você conhecerá os Requisitos básicos para exercer a profissão de Técnico em Informática, Especialidades na área, Valor médio salarial.</p>
+            <p><strong>Nas aulas PRÁTICAS</strong>, você aprenderá noções básicas de montagem e manutenção de computador, Inteligência Artificial (IA), Segurança Cibernética, Desenvolvimento de Software (aplicativos), Desenvolvimento de Jogos e outros temas.</p>
+        </section>
+        <section id="administracao-contabilidade" class="profession">
+            <h2>Administração e Contabilidade</h2>
+            <img src="https://imgur.com/qaqwCQr.png" alt="Administração e Contabilidade">
+            <p><strong>Nas aulas TEÓRICAS</strong>, você conhecerá os Requisitos básicos para exercer essas profissões, Especialidades na Administração e Contabilidade, Perspectivas do profissional de Administração, Ocupação no mercado de trabalho e Média salarial da administração.</p>
+            <p><strong>Nas aulas PRÁTICAS</strong>, você aprenderá noções básicas de Gestão de recursos financeiros, Empreendedorismo, Participação no simulado da Administração de MEI e outros temas.</p>
+        </section>
+    </main>
+
+    <!-- Conteúdo Programático -->
+    <div style="background-color: #f8f9fa; padding: 20px;">
+        <h2 style="color: #003366; text-align: center;">Conteúdo Programático</h2>
+        <ol style="list-style-type: none; padding: 0;">
+            <li><strong>Semana 1-2: Introdução às Profissões</strong>
+               <ul style="list-style-type: disc; padding-left: 20px;">
+                   <li>História e evolução das profissões;</li>
+                   <li>Definição de profissão e ocupação;</li>
+                   <li>Importância da escolha profissional;</li>
+                   <li>Tendências do mercado de trabalho.</li>
+               </ul>
+            </li>
+            <li><strong>Semana 3-4: Profissões na Área Civil</strong>
+               <ul style="list-style-type: disc; padding-left: 20px;">
+                   <li>Bombeiro e Policial;</li>
+               </ul>
+            </li>
+            <li><strong>Semana 5-6: Profissões na Área da Saúde</strong>
+               <ul style="list-style-type: disc; padding-left: 20px;">
+                   <li>Medicina e Enfermagem;</li>
+               </ul>
+            </li>
+            <li><strong>Semana 7-8: Profissões nas Ciências Humanas</strong>
+               <ul style="list-style-type: disc; padding-left: 20px;">
+                   <li>Direito e Advocacia;</li>
+               </ul>
+            </li>
+            <li><strong>Semana 9-10: Profissões Criativas</strong>
+               <ul style="list-style-type: disc; padding-left: 20px;">
+                   <li>Publicidade e Marketing;</li>
+               </ul>
+            </li>
+            <li><strong>Semana 11-12: Profissões na Área de Tecnologia</strong>
+               <ul style="list-style-type: disc; padding-left: 20px;">
+                   <li>Técnico de Informática;</li>
+               </ul>
+            </li>
+            <li><strong>Semana 13-14: Profissões no Setor Empresarial</strong>
+               <ul style="list-style-type: disc; padding-left: 20px;">
+                   <li>Administração e Contabilidade;</li>
+               </ul>
+            </li>
+            <li><strong>Semana 15-16: Profissões no Setor Esportivo</strong>
+               <ul style="list-style-type: disc; padding-left: 20px;">
+                   <li>Jogador e Lutador.</li>
+               </ul>
+            </li>
+        </ol>
+    </div>
+    <section id="certificados">
+        <h2>Certificados</h2>
+        <p>Ao final da eletiva, os alunos receberam um certificado com a respectiva profissão escolhida.</p>
+        <p></p>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 UMI - São Judas Tadeu - Eletiva Profissões</p>
+</footer>
 </body>
 </html>
